@@ -1,0 +1,137 @@
+\chapter{Introducción}
+\label{chap:introduccion}
+
+\section{Contextualización}
+El patrimonio cultural de un pueblo no reside únicamente en sus monumentos, sino en los saberes que sus miembros practican y transmiten cada día. La Convención de la UNESCO para la Salvaguardia del Patrimonio Cultural Inmaterial reconoce como tal a los usos, representaciones, expresiones, conocimientos y técnicas que las comunidades heredan de generación en generación y recrean de forma constante en función de su entorno \cite{unesco2003convencion}. Esta definición desplaza la atención desde el objeto hacia el portador del conocimiento y, en consecuencia, plantea que la continuidad del patrimonio depende de la continuidad de su transmisión.
+
+La Sierra Sur del Ecuador constituye un territorio en el que esta dimensión inmaterial adquiere una especial densidad. En él habitan comunidades Kichwa portadoras de conocimientos vinculados con la lengua, la memoria oral, la medicina ancestral, la gastronomía, las festividades, los rituales, la música, la danza, la vestimenta, las técnicas artesanales y las formas de organización comunitaria. Estas manifestaciones se articulan en torno a la cosmovisión andina, de modo que no constituyen expresiones aisladas, sino un sistema que relaciona a las comunidades con el territorio, la naturaleza y la vida colectiva. Experiencias recientes en el pueblo Saraguro, como la revitalización intercultural de la arriería o el registro de rituales ancestrales, confirman la vigencia de este patrimonio vivo en la región \cite{quezada2026muleteering,torres2022ancestral}.
+
+No obstante, la vigencia de estos saberes no garantiza su permanencia. Los procesos de migración, la globalización, la transformación de las dinámicas sociales, la disminución del uso cotidiano de la lengua kichwa y la escasa participación de las nuevas generaciones debilitan los canales tradicionales de transmisión intergeneracional. Cuando el conocimiento se conserva principalmente en la memoria de sabios, líderes comunitarios, artesanos, músicos y agricultores, el envejecimiento de estos depositarios se traduce en un riesgo directo de pérdida, descontextualización o transformación de las manifestaciones culturales.
+
+En este escenario, las tecnologías de la información ofrecen alternativas para registrar, organizar y difundir el patrimonio mediante aplicaciones web y móviles, contenidos multimedia, servicios de georreferenciación y recursos educativos interactivos. Sin embargo, su incorporación exige atender las condiciones reales de las comunidades: la conectividad limitada de los sectores rurales, la diversidad lingüística, la accesibilidad y la protección de conocimientos considerados sensibles o de uso restringido \cite{christen2012information}. Es en esta intersección entre patrimonio vivo y tecnología donde se sitúa el presente trabajo.
+
+El proyecto se desarrolla en el marco de la Universidad Tecnológica Indoamérica, a través del Centro de Investigación de Ciencias Humanas y de la Educación (CICHE), como parte del proyecto Kallarimanta. Esta iniciativa se orienta a estudiar, documentar y revitalizar la cultura y las tradiciones de los pueblos Kichwa de la Sierra Sur del Ecuador, articulando la investigación intercultural con la preservación del patrimonio cultural inmaterial y su proyección educativa. La solución propuesta, denominada Kallarimanta Digital, busca integrar los contenidos recopilados por el proyecto dentro de un sistema tecnológico estructurado, seguro y escalable.
+
+
+\section{Estado del Arte}
+La Convención de la UNESCO para la Salvaguardia del Patrimonio Cultural Inmaterial reconoce como patrimonio a los usos, representaciones, expresiones, conocimientos y técnicas que las comunidades transmiten de generación en generación \cite{unesco2003convencion}. A partir de este marco, la revisión de la literatura se organizó en tres ejes: (i) aplicaciones digitales orientadas al patrimonio Kichwa y andino, (ii) gobernanza y soberanía de los datos indígenas, y (iii) aprendizaje móvil y georreferenciación aplicados a la difusión cultural.
+
+\subsection{Soluciones digitales para el patrimonio Kichwa y andino}
+El antecedente más directo es el trabajo de Quezada-Sarmiento \textit{et al.} \cite{quezada2026mobile}, quienes diseñaron un prototipo móvil educativo para el patrimonio cultural Saraguro y el aprendizaje introductorio del kichwa. La aplicación, desarrollada con la metodología ágil Mobile-D \cite{abrahamsson2004mobiled} sobre una arquitectura Android (MVVM) con servicios de Firebase, organiza contenidos de gastronomía, rituales y festividades, artesanías, medicina ancestral, relatos y lugares culturales en un mapa, además de expresiones básicas en kichwa con audio. La evaluación exploratoria con doce participantes reportó una buena claridad percibida y una alta valoración de los contenidos locales y georreferenciados. Sin embargo, los propios autores señalan limitaciones: ausencia de acceso sin conexión, soporte multilingüe reducido, falta de un protocolo estandarizado de usabilidad y ausencia de un módulo de administración y validación comunitaria de los contenidos.
+
+En la misma línea, Quezada-Sarmiento \textit{et al.} \cite{quezada2026muleteering} abordan la arriería en Saraguro como patrimonio vivo y destacan el diálogo de saberes como estrategia de salvaguardia, mientras que Torres-Toukoumidis \textit{et al.} \cite{torres2022ancestral} analizan los rituales ancestrales de los Andes ecuatorianos como recurso de turismo comunitario. Ambos estudios confirman el valor de estas manifestaciones, aunque no proponen una plataforma tecnológica para su gestión.
+
+\subsection{Gobernanza y soberanía de los datos indígenas}
+La digitalización del patrimonio indígena plantea retos que van más allá de lo técnico. Christen \cite{christen2012information} cuestiona la idea de que toda la información deba ser de libre acceso y propone respetar los protocolos culturales de cada comunidad para determinar quién puede ver o compartir ciertos conocimientos. Kukutai y Taylor \cite{kukutai2016indigenous} y Hudson \textit{et al.} \cite{hudson2023indigenous} desarrollan el concepto de soberanía de los datos indígenas, según el cual los pueblos deben conservar el control sobre la información que se genera acerca de ellos. Linkola-Aikio \textit{et al.} \cite{linkola2025digital} complementan esta perspectiva con prácticas sostenibles para el patrimonio cultural indígena digital. Estos trabajos sustentan la necesidad de incorporar roles, permisos, consentimiento y validación comunitaria en la arquitectura propuesta.
+
+\subsection{Aprendizaje móvil y georreferenciación}
+Sarrab \textit{et al.} \cite{sarrab2012mobile} describen el aprendizaje móvil como una modalidad que amplía el acceso a recursos educativos en cualquier momento y lugar, lo que resulta pertinente para estudiantes y comunidades dispersas. Por su parte, Gretzel \textit{et al.} \cite{gretzel2015smart} muestran cómo las tecnologías basadas en la ubicación permiten interpretar territorios y recorridos, lo cual respalda el uso de mapas interactivos para vincular cada manifestación cultural con su espacio de origen.
+
+\subsection{Análisis comparativo}
+La Tabla~\ref{tab:estado_arte} resume los trabajos revisados, su aporte principal y su relación con el presente proyecto.
+
+\begin{table}[htbp]
+  \centering
+  \caption{Comparación de los trabajos revisados en el estado del arte.}
+  \label{tab:estado_arte}
+  \begin{tabular}{|p{0.16\textwidth}|p{0.36\textwidth}|p{0.36\textwidth}|}
+    \hline
+    \textbf{Trabajo} & \textbf{Aporte principal} & \textbf{Limitación o brecha} \tabularnewline
+    \hline
+    \raggedright \cite{quezada2026mobile} & \raggedright App móvil con contenidos Saraguro, mapa y kichwa básico & \raggedright Sin modo sin conexión, sin panel web de gestión ni validación comunitaria \tabularnewline
+    \hline
+    \raggedright \cite{quezada2026muleteering} & \raggedright Revitalización intercultural de la arriería como patrimonio vivo & \raggedright No propone una solución tecnológica \tabularnewline
+    \hline
+    \raggedright \cite{torres2022ancestral} & \raggedright Rituales ancestrales andinos como turismo comunitario & \raggedright Enfoque turístico, sin plataforma digital \tabularnewline
+    \hline
+    \raggedright \cite{christen2012information}, \cite{hudson2023indigenous} & \raggedright Protocolos culturales y soberanía de datos indígenas & \raggedright Marco conceptual, sin implementación \tabularnewline
+    \hline
+    \raggedright \cite{sarrab2012mobile}, \cite{gretzel2015smart} & \raggedright Aprendizaje móvil y tecnologías basadas en ubicación & \raggedright No abordan el patrimonio Kichwa \tabularnewline
+    \hline
+  \end{tabular}
+\end{table}
+\elaboradopor{Michael Jhosue Almeida Díaz}
+\fuente{Elaboración propia}
+
+En síntesis, las investigaciones revisadas validan la pertinencia de las tecnologías móviles y georreferenciadas para difundir el patrimonio Kichwa, pero ninguna integra en una misma solución una aplicación web de administración, una aplicación móvil con consulta sin conexión, un módulo de georreferenciación y mecanismos de validación comunitaria y control de acceso a contenidos sensibles. El presente proyecto toma como punto de partida el prototipo Saraguro \cite{quezada2026mobile} y busca cubrir esta brecha mediante la arquitectura multiplataforma propuesta.
+
+\section{Planteamiento del Problema}
+Si el patrimonio cultural inmaterial existe en la medida en que se transmite, cabe preguntarse: ¿puede preservarse y difundirse de manera efectiva un conocimiento que se encuentra disperso, registrado de forma informal y ausente de los entornos digitales en los que hoy aprenden las nuevas generaciones? Esta pregunta orienta el análisis del problema que motiva el presente trabajo.
+
+La primera dimensión del problema es la dispersión de la información. Una parte importante del conocimiento sobre el patrimonio Kichwa de la Sierra Sur se encuentra distribuida en investigaciones académicas, archivos audiovisuales, documentos institucionales, registros comunitarios y testimonios orales. Al no estar integrados en un sistema común, estos recursos resultan difíciles de localizar, consultar, actualizar y relacionar entre sí, tanto para estudiantes, docentes e investigadores como para los propios miembros de las comunidades.
+
+La segunda dimensión corresponde al carácter informal del registro. Gran parte de los saberes permanece conservada únicamente en la memoria de sabios, líderes comunitarios, artesanos y otros portadores de conocimiento. Esta forma de conservación, legítima dentro de la tradición oral, se vuelve vulnerable cuando coincide con el envejecimiento de los depositarios y la migración de los jóvenes, ya que cada conocimiento no documentado ni transmitido representa una pérdida potencialmente irreversible.
+
+La tercera dimensión es de carácter tecnológico. Existe una limitada disponibilidad de herramientas que permitan recopilar, organizar, validar, georreferenciar y difundir estos conocimientos de forma estructurada e intercultural. Las iniciativas existentes suelen resolver aspectos parciales: el prototipo móvil desarrollado para el patrimonio Saraguro demostró la valoración de los contenidos locales y georreferenciados, pero carece de consulta sin conexión, de soporte multilingüe amplio y de un módulo de administración y validación comunitaria de los contenidos \cite{quezada2026mobile}. A ello se suma que la gestión de información indígena requiere mecanismos de control de acceso y consentimiento que respeten la soberanía de las comunidades sobre sus datos \cite{kukutai2016indigenous,hudson2023indigenous}, aspecto que rara vez se incorpora en el diseño de este tipo de soluciones.
+
+La cuarta dimensión es educativa. Aunque las tecnologías web y móviles amplían las posibilidades de aprendizaje en cualquier momento y lugar \cite{sarrab2012mobile}, todavía son escasos los recursos educativos digitales, bilingües y accesibles que representen adecuadamente los conocimientos de los pueblos Kichwa de la Sierra Sur. En consecuencia, el patrimonio permanece ausente de los entornos en los que estudiantes y jóvenes construyen hoy su aprendizaje.
+
+En síntesis, el problema no radica en la falta de patrimonio, sino en la ausencia de una infraestructura tecnológica integrada, intercultural y culturalmente responsable que permita gestionar, ubicar territorialmente y difundir con fines educativos los saberes Kichwa de la Sierra Sur del Ecuador. Esta carencia mantiene la dispersión de la información, incrementa el riesgo de pérdida del conocimiento y limita su transmisión a las nuevas generaciones.
+
+\section{Justificación}
+Frente a la problemática descrita, la pregunta ya no es si la tecnología debe intervenir en la preservación del patrimonio, sino de qué manera puede hacerlo sin sustituir los procesos comunitarios de transmisión ni comprometer los derechos colectivos de sus portadores. El presente proyecto se justifica en la medida en que propone una respuesta técnica a esta cuestión, sustentada en criterios tecnológicos, educativos, interculturales e institucionales.
+
+Desde el ámbito tecnológico, el proyecto integra en una misma arquitectura multiplataforma una aplicación web administrativa, una aplicación móvil, una API de servicios, una base de datos espacial y un repositorio multimedia. La aplicación web se desarrollará con React y TypeScript, la aplicación móvil con Flutter y Dart, y el backend con Node.js, NestJS y TypeScript, organizado como un monolito modular que expone servicios REST documentados mediante OpenAPI/Swagger. La información se almacenará en PostgreSQL con la extensión PostGIS, lo que permitirá registrar coordenadas, representar comunidades y manifestaciones en mapas interactivos con MapLibre y realizar consultas espaciales. A su vez, el uso de SQLite en el dispositivo móvil habilitará la consulta sin conexión de contenidos previamente descargados, respondiendo a la conectividad limitada de los sectores rurales. Esta combinación tecnológica facilita el mantenimiento, la escalabilidad y la incorporación futura de nuevas comunidades, categorías culturales e idiomas.
+
+Desde la perspectiva de la seguridad y la ética de la información, la arquitectura incorpora autenticación mediante JSON Web Token (JWT), control de acceso basado en roles y un flujo de revisión y validación comunitaria previo a la publicación de los contenidos. Estos mecanismos permiten aplicar los principios de protocolos culturales y soberanía de los datos indígenas \cite{christen2012information,hudson2023indigenous}, de modo que la información considerada sensible, reservada o sagrada no se publique sin la autorización de sus portadores. Asimismo, la georreferenciación se gestionará con precaución, evitando exponer la ubicación exacta de lugares ceremoniales o de acceso restringido.
+
+En el ámbito educativo e intercultural, la plataforma transforma los conocimientos culturales en recursos didácticos interactivos, como fichas informativas, contenidos multimedia, mapas y cuestionarios, que podrán utilizarse en procesos de enseñanza relacionados con la identidad, la interculturalidad, la historia local y el patrimonio. El acceso desde dispositivos móviles amplía el alcance de estos recursos hacia estudiantes y jóvenes \cite{sarrab2012mobile}, mientras que la representación territorial de las manifestaciones vincula cada saber con su espacio de origen \cite{gretzel2015smart}. De esta manera, la tecnología no se limita a almacenar información, sino que promueve su comprensión y valoración.
+
+En el plano institucional, el proyecto aporta a la Universidad Tecnológica Indoamérica y al Centro de Investigación de Ciencias Humanas y de la Educación un producto tecnológico aplicable del proyecto Kallarimanta, que podrá emplearse como repositorio, herramienta educativa y medio de difusión de los resultados de investigación. Además, fortalece los procesos de investigación, innovación y vinculación con la sociedad de la institución.
+
+Los beneficiarios directos de la solución son los docentes, investigadores, estudiantes y representantes de las comunidades Kichwa vinculados con el proyecto Kallarimanta, quienes contarán con una herramienta para gestionar y consultar los contenidos. Los beneficiarios indirectos son las nuevas generaciones de las comunidades, el público interesado en la cultura Kichwa y futuros equipos de desarrollo que podrán ampliar la plataforma. En cuanto a la factibilidad, el proyecto es viable desde el punto de vista técnico, al basarse en tecnologías de código abierto ampliamente documentadas, y desde el punto de vista operativo, al contar con el respaldo institucional del CICHE y con el acceso a los materiales y actores del proyecto Kallarimanta.
+
+Finalmente, el proyecto posee pertinencia académica para la carrera de Ingeniería en Tecnologías de la Información, ya que integra el análisis de requerimientos, el diseño de arquitectura de software, el desarrollo web y móvil, la administración de bases de datos espaciales, la seguridad de la información y la evaluación de usabilidad en la resolución de una necesidad real del entorno social.
+
+\section{Objetivos}
+\subsection{Objetivo General}
+Desarrollar una arquitectura multiplataforma web y móvil que permita gestionar, georreferenciar y difundir con fines educativos el patrimonio cultural inmaterial de los pueblos Kichwa de la Sierra Sur del Ecuador, mediante la integración de contenidos multimedia, recursos interactivos y mecanismos de participación comunitaria, con el propósito de contribuir a la preservación digital, valoración cultural y transmisión intergeneracional de sus saberes y tradiciones.
+
+\subsection{Objetivos Específicos}
+\begin{enumerate}
+  \item Identificar y analizar los requerimientos funcionales, no funcionales, educativos y culturales de la plataforma, mediante la participación de docentes, investigadores, estudiantes y representantes de las comunidades Kichwa vinculadas con el proyecto Kallarimanta.
+  \item Diseñar la arquitectura tecnológica, el modelo de datos y las interfaces de usuario de la solución web y móvil, considerando criterios de modularidad, escalabilidad, accesibilidad, seguridad, pertinencia cultural y conectividad limitada.
+  \item Desarrollar una aplicación web administrativa que permita gestionar usuarios, comunidades, categorías, manifestaciones culturales, contenidos multimedia, ubicaciones geográficas y procesos de revisión y validación de la información.
+  \item Implementar una aplicación móvil multiplataforma que facilite la consulta de contenidos culturales y educativos, la visualización de mapas interactivos, la búsqueda de información y el acceso limitado sin conexión a Internet.
+  \item Integrar un módulo de georreferenciación para registrar y representar territorialmente comunidades, lugares y manifestaciones del patrimonio cultural inmaterial Kichwa de la Sierra Sur del Ecuador.
+\end{enumerate}
+
+\section{Alcance del Proyecto}
+\textit{[Delimitar los límites del proyecto, especificando claramente los componentes, módulos o funcionalidades que se incluyen, así como aquellos que se excluyen.]}
+
+\section{Fundamentación Teórica}
+\textit{[Desarrollar los fundamentos teóricos, conceptos, modelos y tecnologías que sustentan el proyecto. Debe estar relacionado directamente con la solución propuesta y su implementación, aplicable a software, hardware o infraestructura.]}
+
+\subsection{Ejemplo de Figura 1}
+Como ejemplo de referencia dentro del texto: en la Figura~\ref{fig:ejemplo_1} se presenta un recurso visual demostrativo que guía el formato esperado para los gráficos del documento.
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.80\textwidth]{Capítulos/fig/fig_ejemplo_1.png}
+  \caption{Ejemplo de figura para guiar el formato de gráficos en el documento.}
+  \label{fig:ejemplo_1}
+\end{figure}
+\elaboradopor{Estudiante}
+\fuente{Elaboración propia}
+
+\subsection{Ejemplo de Tabla 1}
+Como ejemplo de referencia cruzada en párrafo: la Tabla~\ref{tab:ejemplo_1} resume indicadores base que luego pueden compararse con los resultados de implementación.
+
+\begin{table}[htbp]
+  \centering
+  \caption{Ejemplo de tabla para registrar métricas iniciales del diagnóstico.}
+  \label{tab:ejemplo_1}
+  \begin{tabular}{|l|c|c|}
+    \hline
+    Indicador & Valor actual & Meta \\
+    \hline
+    Tiempo de respuesta (ms) & 850 & 400 \\
+    \hline
+    Disponibilidad (\%) & 96.2 & 99.0 \\
+    \hline
+    Incidencias mensuales & 14 & 6 \\
+    \hline
+  \end{tabular}
+\end{table}
+\elaboradopor{Estudiante}
+\fuente{Datos de levantamiento inicial}

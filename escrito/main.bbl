@@ -25,20 +25,6 @@
 {UNESCO}, ``Convención para la salvaguardia del patrimonio cultural
   inmaterial,'' París: UNESCO, 2003.
 
-\bibitem{quezada2026mobile}
-P.~A. Quezada-Sarmiento, F.~A. Mart{\'i}nez-Gallego, and W.~T. Salas-Alvarez,
-  ``Design and exploratory assessment of a mobile educational prototype for
-  {Saraguro} cultural heritage and {Kichwa}-language learning,''
-  \emph{Frontiers in Education}, vol.~11, p. 1906121, 2026.
-
-\bibitem{abrahamsson2004mobiled}
-P.~Abrahamsson, A.~Hanhineva, H.~Hulkko, T.~Ihme, J.~J{\"a}{\"a}linoja,
-  M.~Korkala \emph{et~al.}, ``Mobile-{D}: an agile approach for mobile
-  application development,'' in \emph{Companion to the 19th Annual ACM SIGPLAN
-  Conference on Object-Oriented Programming, Systems, Languages, and
-  Applications}.\hskip 1em plus 0.5em minus 0.4em\relax ACM, 2004, pp.
-  174--175.
-
 \bibitem{quezada2026muleteering}
 P.~A. Quezada-Sarmiento, F.~A. Mart{\'i}nez-Gallego, W.~T. Salas-Alvarez, and
   P.~M. Chango-Ca{\~n}averal, ``Living heritage and knowledge dialogue:
@@ -55,6 +41,20 @@ A.~Torres-Toukoumidis, I.~Mar{\'i}n-Guti{\'e}rrez, and M.~Hinojosa-Becerra,
 K.~A. Christen, ``Does information really want to be free? {Indigenous}
   knowledge systems and the question of openness,'' \emph{International Journal
   of Communication}, vol.~6, pp. 2870--2893, 2012.
+
+\bibitem{quezada2026mobile}
+P.~A. Quezada-Sarmiento, F.~A. Mart{\'i}nez-Gallego, and W.~T. Salas-Alvarez,
+  ``Design and exploratory assessment of a mobile educational prototype for
+  {Saraguro} cultural heritage and {Kichwa}-language learning,''
+  \emph{Frontiers in Education}, vol.~11, p. 1906121, 2026.
+
+\bibitem{abrahamsson2004mobiled}
+P.~Abrahamsson, A.~Hanhineva, H.~Hulkko, T.~Ihme, J.~J{\"a}{\"a}linoja,
+  M.~Korkala \emph{et~al.}, ``Mobile-{D}: an agile approach for mobile
+  application development,'' in \emph{Companion to the 19th Annual ACM SIGPLAN
+  Conference on Object-Oriented Programming, Systems, Languages, and
+  Applications}.\hskip 1em plus 0.5em minus 0.4em\relax ACM, 2004, pp.
+  174--175.
 
 \bibitem{kukutai2016indigenous}
 T.~Kukutai and J.~Taylor, \emph{Indigenous Data Sovereignty: Toward an
