@@ -30,9 +30,9 @@ Sarrab \textit{et al.} \cite{sarrab2012mobile} describen el aprendizaje móvil c
 \subsection{Análisis comparativo}
 La Tabla~\ref{tab:estado_arte} resume los trabajos revisados, su aporte principal y su relación con el presente proyecto.
 
-\begin{table}[htbp]
-  \centering
-  \caption{Comparación de los trabajos revisados en el estado del arte.}
+\needspace{16\baselineskip}
+{\centering\singlespacing
+  \captionof{table}{Comparación de los trabajos revisados en el estado del arte.}
   \label{tab:estado_arte}
   \begin{tabular}{|p{0.16\textwidth}|p{0.36\textwidth}|p{0.36\textwidth}|}
     \hline
@@ -48,8 +48,7 @@ La Tabla~\ref{tab:estado_arte} resume los trabajos revisados, su aporte principa
     \hline
     \raggedright \cite{sarrab2012mobile}, \cite{gretzel2015smart} & \raggedright Aprendizaje móvil y tecnologías basadas en ubicación & \raggedright No abordan el patrimonio Kichwa \tabularnewline
     \hline
-  \end{tabular}
-\end{table}
+  \end{tabular}\par}
 \elaboradopor{Michael Jhosue Almeida Díaz}
 \fuente{Elaboración propia}
 
@@ -97,41 +96,108 @@ Desarrollar una arquitectura multiplataforma web y móvil que permita gestionar,
 \end{enumerate}
 
 \section{Alcance del Proyecto}
-\textit{[Delimitar los límites del proyecto, especificando claramente los componentes, módulos o funcionalidades que se incluyen, así como aquellos que se excluyen.]}
+El proyecto comprende el análisis, diseño, desarrollo y evaluación de un prototipo funcional de la plataforma Kallarimanta Digital, una arquitectura multiplataforma orientada a la gestión, georreferenciación y difusión educativa del patrimonio cultural inmaterial de los pueblos Kichwa de la Sierra Sur del Ecuador. La primera versión se aplicará a una muestra de comunidades, manifestaciones y contenidos vinculados con el proyecto Kallarimanta, y su arquitectura se diseñará con criterios de escalabilidad para incorporar posteriormente nuevas comunidades, categorías culturales, recursos educativos e idiomas.
+
+La solución incluye los siguientes componentes:
+
+\begin{itemize}
+  \item \textbf{Aplicación web administrativa:} gestión de usuarios, roles y permisos; registro de comunidades y ubicaciones; administración de categorías culturales; registro, edición, clasificación, revisión, validación y publicación de manifestaciones patrimoniales; carga de fotografías, audios, videos y documentos; restricción del acceso a información cultural sensible; y consulta de reportes básicos.
+  \item \textbf{Aplicación móvil multiplataforma:} orientada principalmente a dispositivos Android, permitirá consultar contenidos culturales, reproducir recursos multimedia, explorar comunidades y manifestaciones en un mapa interactivo, buscar información por categorías y palabras clave, acceder a recursos educativos y consultar sin conexión los contenidos previamente descargados.
+  \item \textbf{API de servicios:} interfaz REST documentada que centralizará las reglas de negocio, la autenticación, el control de acceso por roles y la comunicación entre las aplicaciones y la base de datos.
+  \item \textbf{Base de datos cultural georreferenciada:} almacenamiento estructurado de la información cultural, educativa, geográfica y multimedia, con soporte para contenidos en español y kichwa.
+  \item \textbf{Módulo de georreferenciación:} registro y representación territorial de comunidades, lugares y manifestaciones, con tratamiento diferenciado de las ubicaciones consideradas sensibles.
+  \item \textbf{Recursos educativos digitales:} fichas informativas, contenidos multimedia y cuestionarios vinculados con las manifestaciones registradas.
+  \item \textbf{Repositorio inicial de contenidos:} conjunto de manifestaciones con su descripción, comunidad de procedencia, categoría, ubicación, recursos multimedia, autoría, fuente, condiciones de acceso y estado de validación.
+  \item \textbf{Documentación técnica y funcional:} documento de arquitectura, modelo de base de datos, diagramas UML, documentación de la API, código fuente, manual de instalación, manual técnico, manual de usuario e informe de pruebas.
+\end{itemize}
+
+La validación del prototipo abarcará pruebas funcionales, de integración, compatibilidad, rendimiento y seguridad, así como una evaluación de usabilidad y aceptación con usuarios representativos, entre ellos estudiantes, docentes, investigadores y miembros de las comunidades participantes.
+
+Quedan fuera del alcance del proyecto los siguientes aspectos:
+
+\begin{itemize}
+  \item El desarrollo de versiones nativas independientes para cada sistema operativo. La aplicación móvil se construirá con una tecnología multiplataforma y su funcionamiento en iOS dependerá de la compatibilidad alcanzada.
+  \item La digitalización exhaustiva de la totalidad del patrimonio cultural inmaterial de la Sierra Sur del Ecuador.
+  \item La sustitución de los procesos comunitarios tradicionales de transmisión de conocimientos.
+  \item La publicación de información cultural considerada reservada, sagrada o sensible sin la autorización de sus portadores.
+  \item La traducción automática de contenidos al kichwa. La incorporación de textos en esta lengua dependerá de la disponibilidad de especialistas y representantes comunitarios que los traduzcan y validen.
+  \item La creación o edición de contenidos desde la aplicación móvil, que en esta versión será exclusivamente de consulta.
+  \item La implementación de una arquitectura de microservicios, realidad aumentada, analítica avanzada de uso o mecanismos de edición colaborativa abierta, que se plantean como trabajo futuro.
+  \item El alojamiento, mantenimiento y actualización de la plataforma posteriores a la entrega del prototipo, cuya continuidad dependerá del compromiso institucional.
+\end{itemize}
 
 \section{Fundamentación Teórica}
-\textit{[Desarrollar los fundamentos teóricos, conceptos, modelos y tecnologías que sustentan el proyecto. Debe estar relacionado directamente con la solución propuesta y su implementación, aplicable a software, hardware o infraestructura.]}
 
-\subsection{Ejemplo de Figura 1}
-Como ejemplo de referencia dentro del texto: en la Figura~\ref{fig:ejemplo_1} se presenta un recurso visual demostrativo que guía el formato esperado para los gráficos del documento.
+\subsection{Patrimonio cultural inmaterial}
+La Convención para la Salvaguardia del Patrimonio Cultural Inmaterial define este patrimonio como los usos, representaciones, expresiones, conocimientos y técnicas que las comunidades reconocen como parte de su identidad y que se transmiten y recrean de generación en generación \cite{unesco2003convencion}. La Convención agrupa sus manifestaciones en cinco ámbitos: tradiciones y expresiones orales, incluido el idioma; artes del espectáculo; usos sociales, rituales y actos festivos; conocimientos y usos relacionados con la naturaleza y el universo; y técnicas artesanales tradicionales.
 
-\begin{figure}[htbp]
-  \centering
-  \includegraphics[width=0.80\textwidth]{Capítulos/fig/fig_ejemplo_1.png}
-  \caption{Ejemplo de figura para guiar el formato de gráficos en el documento.}
-  \label{fig:ejemplo_1}
-\end{figure}
-\elaboradopor{Estudiante}
+El mismo instrumento entiende la salvaguardia como el conjunto de medidas orientadas a garantizar la viabilidad de este patrimonio, entre ellas su identificación, documentación, investigación, preservación, protección, promoción, valorización y transmisión \cite{unesco2003convencion}. Estas medidas se corresponden con las funciones que la plataforma propuesta debe soportar: registrar, organizar, validar y difundir las manifestaciones culturales sin desvincularlas de sus portadores.
+
+\subsection{Pueblos Kichwa de la Sierra Sur y patrimonio vivo}
+En la Sierra Sur del Ecuador, el patrimonio inmaterial Kichwa se expresa en la lengua, la medicina ancestral, la gastronomía, las festividades como el Inti Raymi, las artesanías, los relatos y las formas de organización comunitaria, articuladas en torno a la cosmovisión andina \cite{quezada2026mobile}. Estas prácticas constituyen un patrimonio vivo, cuya continuidad depende del diálogo de saberes entre generaciones y de la participación activa de las comunidades \cite{quezada2026muleteering}. Por esta razón, una solución tecnológica en este ámbito debe concebirse como un apoyo a la transmisión comunitaria y no como su reemplazo.
+
+\subsection{Preservación digital y gobernanza de datos indígenas}
+La preservación digital consiste en el conjunto de procesos que permiten registrar, almacenar y mantener accesible la información a lo largo del tiempo. Cuando esta información corresponde a conocimientos indígenas, su gestión plantea exigencias adicionales. Christen \cite{christen2012information} sostiene que el acceso abierto no siempre es adecuado y que deben respetarse los protocolos culturales que determinan quién puede ver o compartir determinados conocimientos.
+
+En esta línea, el concepto de soberanía de los datos indígenas reconoce el derecho de los pueblos a gobernar la información que se genera sobre ellos \cite{kukutai2016indigenous,hudson2023indigenous}. Los principios CARE (beneficio colectivo, autoridad para controlar, responsabilidad y ética) complementan esta perspectiva y orientan la gestión de datos indígenas hacia el bienestar de las comunidades \cite{carroll2020care}. En la plataforma, estos principios se traducen en niveles de acceso, validación comunitaria previa a la publicación y registro del consentimiento y la autoría de cada recurso.
+
+\subsection{Aprendizaje móvil}
+El aprendizaje móvil (\textit{m-learning}) es una modalidad educativa que aprovecha los dispositivos portátiles para acceder a contenidos y actividades de aprendizaje en cualquier momento y lugar \cite{sarrab2012mobile}. Su principal ventaja para este proyecto es la posibilidad de llevar recursos educativos sobre el patrimonio a estudiantes y comunidades dispersas geográficamente. En contextos rurales con conectividad limitada, esta ventaja requiere complementarse con un enfoque de funcionamiento sin conexión, en el que la aplicación almacena localmente los contenidos y los sincroniza cuando dispone de acceso a Internet.
+
+\subsection{Sistemas de información geográfica y georreferenciación}
+Un sistema de información geográfica (SIG) permite capturar, almacenar, analizar y representar datos asociados a una ubicación en la superficie terrestre \cite{longley2015gis}. La georreferenciación consiste en asignar coordenadas a un objeto dentro de un sistema de referencia, comúnmente el sistema geodésico WGS84, de modo que pueda ubicarse en un mapa. En el modelo vectorial, las entidades se representan como puntos, líneas o polígonos; en este proyecto, las comunidades y lugares se modelan como puntos o polígonos asociados a las manifestaciones culturales.
+
+Para el intercambio de esta información entre el servidor y las aplicaciones se emplea GeoJSON, un formato estándar basado en JSON para representar entidades geográficas \cite{butler2016geojson}. La representación territorial del patrimonio permite relacionar cada manifestación con su espacio de origen y facilita la interpretación de lugares y recorridos culturales \cite{gretzel2015smart}.
+
+\subsection{Arquitectura de software}
+La arquitectura de software es el conjunto de estructuras de un sistema, compuestas por sus elementos, las relaciones entre ellos y sus propiedades \cite{bass2021software}. Su definición temprana permite razonar sobre atributos de calidad como la mantenibilidad, la escalabilidad y la seguridad antes de la implementación.
+
+El proyecto adopta una arquitectura cliente-servidor, en la que las aplicaciones web y móvil actúan como clientes de un servidor central. En el servidor se aplica el estilo de monolito modular: una sola aplicación desplegable cuyas funcionalidades se organizan en módulos independientes, como usuarios, comunidades, manifestaciones, multimedia o georreferenciación. Este estilo reduce la complejidad de despliegue frente a una arquitectura de microservicios y conserva una separación clara de responsabilidades.
+
+La comunicación entre clientes y servidor sigue el estilo arquitectónico REST (\textit{Representational State Transfer}), que organiza el sistema en recursos identificados por URL y manipulados mediante operaciones estándar del protocolo HTTP, con interacciones sin estado \cite{fielding2000rest}. Los servicios se documentan con la especificación OpenAPI, lo que facilita su prueba y su integración con otros sistemas.
+
+\subsection{Tecnologías de la solución}
+La Tabla~\ref{tab:tecnologias} resume las tecnologías seleccionadas para cada componente de la arquitectura.
+
+\needspace{22\baselineskip}
+{\centering\singlespacing
+  \captionof{table}{Tecnologías seleccionadas para la solución.}
+  \label{tab:tecnologias}
+  \begin{tabular}{|p{0.27\textwidth}|p{0.27\textwidth}|p{0.34\textwidth}|}
+    \hline
+    \textbf{Componente} & \textbf{Tecnología} & \textbf{Uso en el proyecto} \tabularnewline
+    \hline
+    \raggedright Aplicación web & \raggedright React y TypeScript \cite{react2026docs} & \raggedright Panel administrativo y portal de consulta \tabularnewline
+    \hline
+    \raggedright Aplicación móvil & \raggedright Flutter y Dart \cite{flutter2026docs} & \raggedright Aplicación multiplataforma orientada a Android \tabularnewline
+    \hline
+    \raggedright Backend & \raggedright Node.js, NestJS y TypeScript \cite{nestjs2026docs} & \raggedright API REST, reglas de negocio y control de acceso \tabularnewline
+    \hline
+    \raggedright Base de datos & \raggedright PostgreSQL y PostGIS \cite{postgis2026docs} & \raggedright Datos estructurados y consultas espaciales \tabularnewline
+    \hline
+    \raggedright Mapas & \raggedright MapLibre \cite{maplibre2026docs} & \raggedright Visualización de comunidades y manifestaciones \tabularnewline
+    \hline
+    \raggedright Almacenamiento local & \raggedright SQLite & \raggedright Consulta móvil sin conexión \tabularnewline
+    \hline
+    \raggedright Multimedia & \raggedright Almacenamiento de objetos compatible con S3 o Firebase Storage & \raggedright Fotografías, audios, videos y documentos \tabularnewline
+    \hline
+    \raggedright Autenticación & \raggedright JSON Web Token (JWT) & \raggedright Inicio de sesión y protección de servicios \tabularnewline
+    \hline
+    \raggedright Despliegue & \raggedright Docker, Docker Compose y GitHub Actions & \raggedright Entornos reproducibles e integración continua \tabularnewline
+    \hline
+  \end{tabular}\par}
+\elaboradopor{Michael Jhosue Almeida Díaz}
 \fuente{Elaboración propia}
 
-\subsection{Ejemplo de Tabla 1}
-Como ejemplo de referencia cruzada en párrafo: la Tabla~\ref{tab:ejemplo_1} resume indicadores base que luego pueden compararse con los resultados de implementación.
+React es una biblioteca de JavaScript para construir interfaces de usuario mediante componentes reutilizables, lo que facilita el desarrollo de formularios, catálogos y paneles de administración \cite{react2026docs}. Flutter es un marco de desarrollo que permite compilar aplicaciones para distintos sistemas operativos a partir de una misma base de código en Dart \cite{flutter2026docs}. NestJS es un marco para Node.js que organiza el código del servidor en módulos, controladores y servicios, en concordancia con el estilo de monolito modular \cite{nestjs2026docs}. PostGIS extiende PostgreSQL con tipos de datos, índices y funciones espaciales, lo que permite almacenar geometrías y realizar consultas de proximidad \cite{postgis2026docs}. Finalmente, MapLibre es una biblioteca de código abierto para mostrar mapas interactivos basados en teselas vectoriales \cite{maplibre2026docs}.
 
-\begin{table}[htbp]
-  \centering
-  \caption{Ejemplo de tabla para registrar métricas iniciales del diagnóstico.}
-  \label{tab:ejemplo_1}
-  \begin{tabular}{|l|c|c|}
-    \hline
-    Indicador & Valor actual & Meta \\
-    \hline
-    Tiempo de respuesta (ms) & 850 & 400 \\
-    \hline
-    Disponibilidad (\%) & 96.2 & 99.0 \\
-    \hline
-    Incidencias mensuales & 14 & 6 \\
-    \hline
-  \end{tabular}
-\end{table}
-\elaboradopor{Estudiante}
-\fuente{Datos de levantamiento inicial}
+\subsection{Seguridad y control de acceso}
+La autenticación se basa en JSON Web Token (JWT), un estándar abierto que representa de forma compacta un conjunto de declaraciones firmadas digitalmente, de modo que el servidor puede verificar la identidad del usuario en cada solicitud sin mantener una sesión \cite{jones2015jwt}. La autorización se gestiona mediante control de acceso basado en roles (RBAC), modelo en el que los permisos se asignan a roles y estos a los usuarios, lo que simplifica la administración de privilegios \cite{sandhu1996rbac}. En la plataforma, este modelo se combina con niveles de acceso por contenido para proteger los conocimientos sensibles.
+
+\subsection{Design Science Research y Scrum}
+Design Science Research (DSR) es un paradigma de investigación orientado a crear y evaluar artefactos tecnológicos que resuelven problemas identificados en un contexto real \cite{hevner2004design}. Su ciclo comprende la identificación del problema, el diseño y la construcción del artefacto, y su evaluación rigurosa, lo que se ajusta al propósito de este trabajo.
+
+Para la construcción del software se emplea Scrum, un marco ágil que organiza el trabajo en iteraciones de duración fija denominadas \textit{sprints}, al final de las cuales se obtiene un incremento funcional del producto que se revisa y ajusta \cite{schwaber2020scrum}. Su carácter iterativo permite incorporar de manera progresiva la retroalimentación de docentes, investigadores y representantes comunitarios.
+
+\subsection{Usabilidad y escala SUS}
+La norma ISO 9241-11 define la usabilidad como el grado en que un sistema puede ser utilizado por usuarios específicos para alcanzar objetivos concretos con efectividad, eficiencia y satisfacción en un contexto de uso determinado \cite{iso2018usability}. Para medirla se utilizará la escala System Usability Scale (SUS), un cuestionario de diez ítems con respuestas tipo Likert de cinco puntos que produce una puntuación entre 0 y 100 \cite{brooke1996sus}. Diversos estudios han establecido rangos de interpretación de esta puntuación \cite{bangor2008sus}, y se considera que un valor de 68 corresponde al promedio de los sistemas evaluados \cite{sauro2011sus}, por lo que se adopta como referencia mínima para el prototipo.

@@ -7,42 +7,50 @@
 \contentsline {subsection}{\numberline {1.2.3}Aprendizaje móvil y georreferenciación}{20}{subsection.1.2.3}%
 \contentsline {subsection}{\numberline {1.2.4}Análisis comparativo}{20}{subsection.1.2.4}%
 \contentsline {section}{\numberline {1.3}Planteamiento del Problema}{21}{section.1.3}%
-\contentsline {section}{\numberline {1.4}Justificación}{22}{section.1.4}%
-\contentsline {section}{\numberline {1.5}Objetivos}{24}{section.1.5}%
-\contentsline {subsection}{\numberline {1.5.1}Objetivo General}{24}{subsection.1.5.1}%
-\contentsline {subsection}{\numberline {1.5.2}Objetivos Específicos}{24}{subsection.1.5.2}%
-\contentsline {section}{\numberline {1.6}Alcance del Proyecto}{25}{section.1.6}%
-\contentsline {section}{\numberline {1.7}Fundamentación Teórica}{25}{section.1.7}%
-\contentsline {subsection}{\numberline {1.7.1}Ejemplo de Figura 1}{25}{subsection.1.7.1}%
-\contentsline {subsection}{\numberline {1.7.2}Ejemplo de Tabla 1}{26}{subsection.1.7.2}%
-\contentsline {chapter}{\numberline {II}Metodología}{27}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Diagnóstico de la Situación Actual}{27}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Área de Estudio}{27}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Metodología de Desarrollo o Implementación}{28}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Técnicas e Instrumentos de Recolección de Información}{28}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Requerimientos del Proyecto}{28}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1}Requerimientos Funcionales}{28}{subsection.2.5.1}%
-\contentsline {subsection}{\numberline {2.5.2}Requerimientos No Funcionales}{28}{subsection.2.5.2}%
-\contentsline {section}{\numberline {2.6}Diseño de la Solución}{28}{section.2.6}%
-\contentsline {section}{\numberline {2.7}Justificación Técnica}{28}{section.2.7}%
-\contentsline {subsection}{\numberline {2.7.1}Ejemplo de Imagen 1}{29}{subsection.2.7.1}%
-\contentsline {subsection}{\numberline {2.7.2}Ejemplo de Ecuación 1}{29}{subsection.2.7.2}%
-\contentsline {chapter}{\numberline {III}Implementación, Pruebas y Resultados}{30}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Descripción de la Solución}{30}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Proceso de Implementación}{30}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Pruebas y Validación}{30}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Resultados}{30}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Ejemplo de Figura 2}{30}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}Ejemplo de Tabla 2}{31}{subsection.3.4.2}%
-\contentsline {subsection}{\numberline {3.4.3}Ejemplo de Imagen 2}{31}{subsection.3.4.3}%
-\contentsline {subsection}{\numberline {3.4.4}Ejemplo de Ecuación 2}{31}{subsection.3.4.4}%
-\contentsline {subsection}{\numberline {3.4.5}Ejemplos de Referencias Cruzadas}{32}{subsection.3.4.5}%
-\contentsline {section}{\numberline {3.5}Cronograma y Presupuesto}{32}{section.3.5}%
-\contentsline {chapter}{\numberline {IV}Conclusiones y Recomendaciones}{33}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Conclusiones}{33}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Recomendaciones}{33}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Trabajos Futuros}{33}{section.4.3}%
-\contentsline {chapter}{REFERENCIAS}{34}{section*.9}%
-\contentsline {chapter}{GLOSARIO}{37}{chapter*.11}%
+\contentsline {section}{\numberline {1.4}Justificación}{23}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Objetivos}{25}{section.1.5}%
+\contentsline {subsection}{\numberline {1.5.1}Objetivo General}{25}{subsection.1.5.1}%
+\contentsline {subsection}{\numberline {1.5.2}Objetivos Específicos}{25}{subsection.1.5.2}%
+\contentsline {section}{\numberline {1.6}Alcance del Proyecto}{26}{section.1.6}%
+\contentsline {section}{\numberline {1.7}Fundamentación Teórica}{28}{section.1.7}%
+\contentsline {subsection}{\numberline {1.7.1}Patrimonio cultural inmaterial}{28}{subsection.1.7.1}%
+\contentsline {subsection}{\numberline {1.7.2}Pueblos Kichwa de la Sierra Sur y patrimonio vivo}{28}{subsection.1.7.2}%
+\contentsline {subsection}{\numberline {1.7.3}Preservación digital y gobernanza de datos indígenas}{29}{subsection.1.7.3}%
+\contentsline {subsection}{\numberline {1.7.4}Aprendizaje móvil}{29}{subsection.1.7.4}%
+\contentsline {subsection}{\numberline {1.7.5}Sistemas de información geográfica y georreferenciación}{30}{subsection.1.7.5}%
+\contentsline {subsection}{\numberline {1.7.6}Arquitectura de software}{30}{subsection.1.7.6}%
+\contentsline {subsection}{\numberline {1.7.7}Tecnologías de la solución}{31}{subsection.1.7.7}%
+\contentsline {subsection}{\numberline {1.7.8}Seguridad y control de acceso}{33}{subsection.1.7.8}%
+\contentsline {subsection}{\numberline {1.7.9}Design Science Research y Scrum}{33}{subsection.1.7.9}%
+\contentsline {subsection}{\numberline {1.7.10}Usabilidad y escala SUS}{33}{subsection.1.7.10}%
+\contentsline {chapter}{\numberline {II}Metodología}{34}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Diagnóstico de la Situación Actual}{34}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Área de Estudio}{34}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Metodología de Desarrollo o Implementación}{35}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Técnicas e Instrumentos de Recolección de Información}{35}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Requerimientos del Proyecto}{35}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Requerimientos Funcionales}{35}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Requerimientos No Funcionales}{35}{subsection.2.5.2}%
+\contentsline {section}{\numberline {2.6}Diseño de la Solución}{35}{section.2.6}%
+\contentsline {section}{\numberline {2.7}Justificación Técnica}{35}{section.2.7}%
+\contentsline {subsection}{\numberline {2.7.1}Ejemplo de Imagen 1}{36}{subsection.2.7.1}%
+\contentsline {subsection}{\numberline {2.7.2}Ejemplo de Ecuación 1}{36}{subsection.2.7.2}%
+\contentsline {chapter}{\numberline {III}Implementación, Pruebas y Resultados}{37}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Descripción de la Solución}{37}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Proceso de Implementación}{37}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Pruebas y Validación}{37}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Resultados}{37}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Ejemplo de Figura 2}{37}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Ejemplo de Tabla 2}{38}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Ejemplo de Imagen 2}{38}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.4.4}Ejemplo de Ecuación 2}{38}{subsection.3.4.4}%
+\contentsline {subsection}{\numberline {3.4.5}Ejemplos de Referencias Cruzadas}{39}{subsection.3.4.5}%
+\contentsline {section}{\numberline {3.5}Cronograma y Presupuesto}{39}{section.3.5}%
+\contentsline {chapter}{\numberline {IV}Conclusiones y Recomendaciones}{40}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Conclusiones}{40}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Recomendaciones}{40}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Trabajos Futuros}{40}{section.4.3}%
+\contentsline {chapter}{REFERENCIAS}{41}{section*.6}%
+\contentsline {chapter}{GLOSARIO}{45}{chapter*.8}%
 \renewcommand {\cftchappresnum }{ANEXO~}
-\contentsline {chapter}{\numberline {A}Título del Anexo A}{38}{appendix.A}%
+\contentsline {chapter}{\numberline {A}Título del Anexo A}{46}{appendix.A}%

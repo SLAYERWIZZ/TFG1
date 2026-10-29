@@ -82,9 +82,97 @@ U.~Gretzel, M.~Sigala, Z.~Xiang, and C.~Koo, ``Smart tourism: foundations and
   developments,'' \emph{Electronic Markets}, vol.~25, no.~3, pp. 179--188,
   2015.
 
+\bibitem{carroll2020care}
+S.~R. Carroll, I.~Garba, O.~L. Figueroa-Rodr{\'i}guez, J.~Holbrook, R.~Lovett,
+  S.~Materechera \emph{et~al.}, ``The {CARE} principles for {Indigenous} data
+  governance,'' \emph{Data Science Journal}, vol.~19, no.~1, p.~43, 2020.
+
+\bibitem{longley2015gis}
+P.~A. Longley, M.~F. Goodchild, D.~J. Maguire, and D.~W. Rhind,
+  \emph{Geographic Information Science and Systems}, 4th~ed.\hskip 1em plus
+  0.5em minus 0.4em\relax Hoboken, NJ: Wiley, 2015.
+
+\bibitem{butler2016geojson}
+H.~Butler, M.~Daly, A.~Doyle, S.~Gillies, S.~Hagen, and T.~Schaub, ``The
+  {GeoJSON} format,'' RFC 7946, Internet Engineering Task Force, 2016.
+
+\bibitem{bass2021software}
+L.~Bass, P.~Clements, and R.~Kazman, \emph{Software Architecture in Practice},
+  4th~ed.\hskip 1em plus 0.5em minus 0.4em\relax Boston, MA: Addison-Wesley,
+  2021.
+
+\bibitem{fielding2000rest}
+R.~T. Fielding, ``Architectural styles and the design of network-based software
+  architectures,'' Ph.D. dissertation, University of California, Irvine, 2000.
+
+\bibitem{react2026docs}
+\BIBentryALTinterwordspacing
+{Meta Open Source}, ``React,'' Documentación oficial, 2026. [Online].
+  Available: \url{https://react.dev/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{flutter2026docs}
+\BIBentryALTinterwordspacing
+{Google}, ``Flutter,'' Documentación oficial, 2026. [Online]. Available:
+  \url{https://flutter.dev/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{nestjs2026docs}
+\BIBentryALTinterwordspacing
+{NestJS}, ``{NestJS} documentation,'' Documentación oficial, 2026. [Online].
+  Available: \url{https://docs.nestjs.com/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{postgis2026docs}
+\BIBentryALTinterwordspacing
+{PostGIS Project}, ``{PostGIS} manual,'' Documentación oficial, 2026.
+  [Online]. Available: \url{https://postgis.net/docs/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{maplibre2026docs}
+\BIBentryALTinterwordspacing
+{MapLibre}, ``{MapLibre GL JS},'' Documentación oficial, 2026. [Online].
+  Available: \url{https://maplibre.org/maplibre-gl-js/docs/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{jones2015jwt}
+M.~Jones, J.~Bradley, and N.~Sakimura, ``{JSON} web token ({JWT}),'' RFC 7519,
+  Internet Engineering Task Force, 2015.
+
+\bibitem{sandhu1996rbac}
+R.~S. Sandhu, E.~J. Coyne, H.~L. Feinstein, and C.~E. Youman, ``Role-based
+  access control models,'' \emph{Computer}, vol.~29, no.~2, pp. 38--47, 1996.
+
 \bibitem{hevner2004design}
 A.~R. Hevner, S.~T. March, J.~Park, and S.~Ram, ``Design science in information
   systems research,'' \emph{MIS Quarterly}, vol.~28, no.~1, pp. 75--105, 2004.
+
+\bibitem{schwaber2020scrum}
+\BIBentryALTinterwordspacing
+K.~Schwaber and J.~Sutherland, ``The {Scrum} guide,'' Scrum.org, 2020.
+  [Online]. Available: \url{https://scrumguides.org/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{iso2018usability}
+{International Organization for Standardization}, ``{ISO} 9241-11:2018
+  {Ergonomics} of human-system interaction --- part 11: Usability: Definitions
+  and concepts,'' Ginebra: ISO, 2018.
+
+\bibitem{brooke1996sus}
+J.~Brooke, ``{SUS}: A ``quick and dirty'' usability scale,'' in \emph{Usability
+  Evaluation in Industry}, P.~W. Jordan, B.~Thomas, B.~A. Weerdmeester, and
+  I.~L. McClelland, Eds.\hskip 1em plus 0.5em minus 0.4em\relax London: Taylor
+  \& Francis, 1996, pp. 189--194.
+
+\bibitem{bangor2008sus}
+A.~Bangor, P.~T. Kortum, and J.~T. Miller, ``An empirical evaluation of the
+  {System Usability Scale},'' \emph{International Journal of Human-Computer
+  Interaction}, vol.~24, no.~6, pp. 574--594, 2008.
+
+\bibitem{sauro2011sus}
+J.~Sauro, \emph{A Practical Guide to the {System Usability Scale}: Background,
+  Benchmarks \& Best Practices}.\hskip 1em plus 0.5em minus 0.4em\relax Denver,
+  CO: Measuring Usability LLC, 2011.
 
 \bibitem{humble2011devops}
 J.~Humble and D.~Farley, ``Continuous delivery and devops: A practical
